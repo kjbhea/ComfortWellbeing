@@ -32,6 +32,12 @@ namespace ComfortWellbeing
         {
             // 영양제코드
             TxtHerbCd.SetOption(nameof(BHERBCDMODEL.HerbCd), Model.BHerbCd);
+            // 적용일자
+            CboAplDate.SetOption(nameof(BHERBCDMODEL.AplDate), Model.BHerbCd,
+                nameof(COMBODTO.DISPLAYMEMBER),
+                nameof(COMBODTO.VALUEMEMBER),
+                Model.AplDateList,                
+                ImageComboBoxDisplayType.Text);
             // 시작일자
             DtpAplFrDate.SetOption(nameof(BHERBCDMODEL.AplFrDate), Model.BHerbCd, dateFormatType: MTSDateTimeType.YYYY_MM_DD, dateFormatValue: MTSDateTimeType.YYYYMMDD);
             // 종료일자
@@ -61,6 +67,8 @@ namespace ComfortWellbeing
         private void BtnClear_Click(object sender, EventArgs e)
         {
             Model.BHerbCd = new BHERBCDMODEL();
+            Model.BHerbCd.AplFrDate = DateTime.Now.ToString("yyyyMMdd");
+            Model.BHerbCd.AplToDate = "99991231";
             TxtHerbCd.Focus();
         }
 
@@ -95,6 +103,32 @@ namespace ComfortWellbeing
                     MessageBox.Show("삭제오류", "에러", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }  
+        }
+
+        private void GrdView_Click(object sender, EventArgs e)
+        {
+            if (GrdView.FocusedRowHandle < 0)
+            {
+                return;
+            }
+
+            BHERBCDMODEL selectedRow = GrdView.GetRow(GrdView.FocusedRowHandle) as BHERBCDMODEL;
+            if (selectedRow != null) 
+            {
+                Model.BHerbCd.HerbCd = selectedRow.HerbCd;
+                Model.AplDateList = Biz.FindAplData(selectedRow);
+                CboAplDate_SelectionChanged(null, null);
+            }            
+        }
+
+        private void CboAplDate_SelectionChanged(object sender, DevExpress.XtraEditors.Controls.PopupSelectionChangedEventArgs e)
+        {
+            Model.BHerbCd = Biz.FindData(Model.BHerbCd.HerbCd, Model.BHerbCd.AplDate);
+        }
+
+        private void CboAplDate_EditValueChanged(object sender, EventArgs e)
+        {
+            Model.BHerbCd = Biz.FindData(Model.BHerbCd.HerbCd, Model.BHerbCd.AplDate);
         }
     }
 }
