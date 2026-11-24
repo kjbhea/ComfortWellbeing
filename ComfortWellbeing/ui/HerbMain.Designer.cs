@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HerbMain));
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
             this.mtsLayoutControl1 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControl();
             this.DtpOrderDate = new Mentorsoft.Winform.Framework.Controls.MTSDateEdit();
             this.GrdSetCd = new Mentorsoft.Winform.Framework.Controls.MTSGridControl();
@@ -95,6 +95,16 @@
             this.mtsLayoutControlItem6 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
             this.mtsSpinEdit1 = new Mentorsoft.Winform.Framework.Controls.MTSSpinEdit();
             this.mtsLayoutControlItem17 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
+            this.mtsCheckEdit1 = new Mentorsoft.Winform.Framework.Controls.MTSCheckEdit();
+            this.mtsLayoutControlItem18 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
+            this.mtsCheckEdit2 = new Mentorsoft.Winform.Framework.Controls.MTSCheckEdit();
+            this.mtsLayoutControlItem19 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
+            this.mtsCheckEdit3 = new Mentorsoft.Winform.Framework.Controls.MTSCheckEdit();
+            this.mtsLayoutControlItem20 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
+            this.mtsTextEdit3 = new Mentorsoft.Winform.Framework.Controls.MTSTextEdit();
+            this.mtsLayoutControlItem21 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
+            this.mtsButton1 = new Mentorsoft.Winform.Framework.Controls.MTSButton();
+            this.mtsLayoutControlItem22 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControl1)).BeginInit();
             this.mtsLayoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtpOrderDate.Properties)).BeginInit();
@@ -152,12 +162,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mtsSpinEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsCheckEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsCheckEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsCheckEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsTextEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem22)).BeginInit();
             this.SuspendLayout();
             // 
             // mtsLayoutControl1
             // 
             this.mtsLayoutControl1.AControlName = "mtsLayoutControl1";
             this.mtsLayoutControl1.AllowCustomization = false;
+            this.mtsLayoutControl1.Controls.Add(this.mtsButton1);
+            this.mtsLayoutControl1.Controls.Add(this.mtsTextEdit3);
+            this.mtsLayoutControl1.Controls.Add(this.mtsCheckEdit3);
+            this.mtsLayoutControl1.Controls.Add(this.mtsCheckEdit2);
+            this.mtsLayoutControl1.Controls.Add(this.mtsCheckEdit1);
             this.mtsLayoutControl1.Controls.Add(this.mtsSpinEdit1);
             this.mtsLayoutControl1.Controls.Add(this.mtsTextEdit1);
             this.mtsLayoutControl1.Controls.Add(this.DtpOrderDate);
@@ -215,12 +239,12 @@
             this.DtpOrderDate.Properties.AppearanceFocused.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
             this.DtpOrderDate.Properties.AppearanceFocused.Options.UseBorderColor = true;
             this.DtpOrderDate.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            editorButtonImageOptions1.EnableTransparency = false;
-            editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
-            editorButtonImageOptions1.SvgImageSize = new System.Drawing.Size(16, 16);
+            editorButtonImageOptions3.EnableTransparency = false;
+            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions3.SvgImage")));
+            editorButtonImageOptions3.SvgImageSize = new System.Drawing.Size(16, 16);
             this.DtpOrderDate.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.DtpOrderDate.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.DtpOrderDate.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
@@ -275,7 +299,7 @@
             this.GrdSetCd.ReportHeaderTitle = "";
             this.GrdSetCd.RowHeight = 25;
             this.GrdSetCd.SelectedRowBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(128)))), ((int)(((byte)(114)))));
-            this.GrdSetCd.Size = new System.Drawing.Size(256, 637);
+            this.GrdSetCd.Size = new System.Drawing.Size(256, 640);
             this.GrdSetCd.TabIndex = 18;
             this.GrdSetCd.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
@@ -333,7 +357,7 @@
             this.GrdOrder.ReportHeaderTitle = "";
             this.GrdOrder.RowHeight = 25;
             this.GrdOrder.SelectedRowBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(128)))), ((int)(((byte)(114)))));
-            this.GrdOrder.Size = new System.Drawing.Size(619, 637);
+            this.GrdOrder.Size = new System.Drawing.Size(619, 640);
             this.GrdOrder.TabIndex = 17;
             this.GrdOrder.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4});
@@ -831,12 +855,12 @@
             this.TxtPtNo.Properties.AppearanceFocused.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
             this.TxtPtNo.Properties.AppearanceFocused.Options.UseBorderColor = true;
             this.TxtPtNo.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            editorButtonImageOptions2.EnableTransparency = false;
-            editorButtonImageOptions2.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions2.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions2.SvgImage")));
-            editorButtonImageOptions2.SvgImageSize = new System.Drawing.Size(16, 16);
+            editorButtonImageOptions1.EnableTransparency = false;
+            editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
+            editorButtonImageOptions1.SvgImageSize = new System.Drawing.Size(16, 16);
             this.TxtPtNo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.TxtPtNo.Properties.Padding = new System.Windows.Forms.Padding(0, 1, 1, 1);
             this.TxtPtNo.Size = new System.Drawing.Size(336, 35);
             this.TxtPtNo.TabIndex = 4;
@@ -1064,7 +1088,12 @@
             this.mtsLayoutControlGroup6,
             this.mtsLayoutControlGroup7,
             this.mtsLayoutControlItem6,
-            this.mtsLayoutControlItem17});
+            this.mtsLayoutControlItem17,
+            this.mtsLayoutControlItem18,
+            this.mtsLayoutControlItem19,
+            this.mtsLayoutControlItem20,
+            this.mtsLayoutControlItem21,
+            this.mtsLayoutControlItem22});
             this.mTab3.Location = new System.Drawing.Point(0, 0);
             this.mTab3.MTSEnable = true;
             this.mTab3.MTSExpandButtonVisible = true;
@@ -1083,9 +1112,9 @@
             // 
             // emptySpaceItem3
             // 
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 756);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 843);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(903, 116);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(903, 29);
             // 
             // mtsLayoutControlItem16
             // 
@@ -1128,7 +1157,7 @@
             this.mtsLayoutControlGroup6.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLayoutControlGroup6.Name = "mtsLayoutControlGroup6";
             this.mtsLayoutControlGroup6.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
-            this.mtsLayoutControlGroup6.Size = new System.Drawing.Size(633, 672);
+            this.mtsLayoutControlGroup6.Size = new System.Drawing.Size(633, 675);
             this.mtsLayoutControlGroup6.TableName = null;
             this.mtsLayoutControlGroup6.Text = "처방내역";
             // 
@@ -1143,7 +1172,7 @@
             this.mtsLayoutControlItem14.MTSEnable = true;
             this.mtsLayoutControlItem14.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLayoutControlItem14.Name = "mtsLayoutControlItem14";
-            this.mtsLayoutControlItem14.Size = new System.Drawing.Size(623, 641);
+            this.mtsLayoutControlItem14.Size = new System.Drawing.Size(623, 644);
             this.mtsLayoutControlItem14.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
             this.mtsLayoutControlItem14.TextToControlDistance = 0;
             this.mtsLayoutControlItem14.TextVisible = false;
@@ -1168,7 +1197,7 @@
             this.mtsLayoutControlGroup7.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLayoutControlGroup7.Name = "mtsLayoutControlGroup7";
             this.mtsLayoutControlGroup7.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
-            this.mtsLayoutControlGroup7.Size = new System.Drawing.Size(270, 672);
+            this.mtsLayoutControlGroup7.Size = new System.Drawing.Size(270, 675);
             this.mtsLayoutControlGroup7.TableName = null;
             this.mtsLayoutControlGroup7.Text = "약속처방";
             // 
@@ -1183,7 +1212,7 @@
             this.mtsLayoutControlItem15.MTSEnable = true;
             this.mtsLayoutControlItem15.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLayoutControlItem15.Name = "mtsLayoutControlItem15";
-            this.mtsLayoutControlItem15.Size = new System.Drawing.Size(260, 641);
+            this.mtsLayoutControlItem15.Size = new System.Drawing.Size(260, 644);
             this.mtsLayoutControlItem15.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
             this.mtsLayoutControlItem15.TextToControlDistance = 0;
             this.mtsLayoutControlItem15.TextVisible = false;
@@ -1397,7 +1426,7 @@
             this.mtsTextEdit1.IsLabelIcon = true;
             this.mtsTextEdit1.IsReadOnly = false;
             this.mtsTextEdit1.IsRequired = false;
-            this.mtsTextEdit1.Location = new System.Drawing.Point(548, 771);
+            this.mtsTextEdit1.Location = new System.Drawing.Point(548, 774);
             this.mtsTextEdit1.MaskType = Mentorsoft.Winform.Framework.Controls.TextEditFormatType.NONE;
             this.mtsTextEdit1.MinimumSize = new System.Drawing.Size(0, 24);
             this.mtsTextEdit1.MTSDefaultBackColor = System.Drawing.Color.Empty;
@@ -1423,7 +1452,7 @@
             this.mtsLayoutControlItem6.Caption = "mtsLayoutControlItem6";
             this.mtsLayoutControlItem6.Control = this.mtsTextEdit1;
             this.mtsLayoutControlItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mtsLayoutControlItem6.ImageOptions.Image")));
-            this.mtsLayoutControlItem6.Location = new System.Drawing.Point(0, 700);
+            this.mtsLayoutControlItem6.Location = new System.Drawing.Point(0, 703);
             this.mtsLayoutControlItem6.MTSEnable = true;
             this.mtsLayoutControlItem6.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLayoutControlItem6.Name = "mtsLayoutControlItem6";
@@ -1450,7 +1479,7 @@
             this.mtsSpinEdit1.IsLabelIcon = true;
             this.mtsSpinEdit1.IsReadOnly = false;
             this.mtsSpinEdit1.IsRequired = false;
-            this.mtsSpinEdit1.Location = new System.Drawing.Point(548, 799);
+            this.mtsSpinEdit1.Location = new System.Drawing.Point(548, 802);
             this.mtsSpinEdit1.MaxValue = new decimal(new int[] {
             0,
             0,
@@ -1486,7 +1515,7 @@
             this.mtsLayoutControlItem17.Caption = "mtsLayoutControlItem17";
             this.mtsLayoutControlItem17.Control = this.mtsSpinEdit1;
             this.mtsLayoutControlItem17.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mtsLayoutControlItem17.ImageOptions.Image")));
-            this.mtsLayoutControlItem17.Location = new System.Drawing.Point(0, 728);
+            this.mtsLayoutControlItem17.Location = new System.Drawing.Point(0, 731);
             this.mtsLayoutControlItem17.MTSEnable = true;
             this.mtsLayoutControlItem17.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLayoutControlItem17.Name = "mtsLayoutControlItem17";
@@ -1494,6 +1523,235 @@
             this.mtsLayoutControlItem17.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
             this.mtsLayoutControlItem17.TextSize = new System.Drawing.Size(80, 20);
             this.mtsLayoutControlItem17.TextToControlDistance = 5;
+            // 
+            // mtsCheckEdit1
+            // 
+            this.mtsCheckEdit1.AControlName = "mtsCheckEdit1";
+            this.mtsCheckEdit1.DataField = null;
+            this.mtsCheckEdit1.GroupNumber = -1;
+            this.mtsCheckEdit1.IdeaToolTip = "";
+            this.mtsCheckEdit1.IsColorSkin = true;
+            this.mtsCheckEdit1.IsRadio = false;
+            this.mtsCheckEdit1.IsReadOnly = false;
+            this.mtsCheckEdit1.IsRequired = false;
+            this.mtsCheckEdit1.Location = new System.Drawing.Point(648, 830);
+            this.mtsCheckEdit1.MinimumSize = new System.Drawing.Size(0, 24);
+            this.mtsCheckEdit1.MTSDefaultBackColor = System.Drawing.Color.Empty;
+            this.mtsCheckEdit1.MTSEnable = true;
+            this.mtsCheckEdit1.MTSText = "mtsCheckEdit1";
+            this.mtsCheckEdit1.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsCheckEdit1.Name = "mtsCheckEdit1";
+            this.mtsCheckEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.mtsCheckEdit1.Properties.Appearance.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsCheckEdit1.Properties.Appearance.Options.UseBackColor = true;
+            this.mtsCheckEdit1.Properties.Appearance.Options.UseFont = true;
+            this.mtsCheckEdit1.Properties.Appearance.Options.UseTextOptions = true;
+            this.mtsCheckEdit1.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.mtsCheckEdit1.Properties.Caption = "mtsCheckEdit1";
+            this.mtsCheckEdit1.Properties.CheckBoxOptions.Style = DevExpress.XtraEditors.Controls.CheckBoxStyle.SvgCheckBox1;
+            this.mtsCheckEdit1.Properties.CheckBoxOptions.SvgColorChecked = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
+            this.mtsCheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked;
+            this.mtsCheckEdit1.Size = new System.Drawing.Size(262, 24);
+            this.mtsCheckEdit1.TabIndex = 22;
+            this.mtsCheckEdit1.ValueChecked = true;
+            this.mtsCheckEdit1.ValueUnChecked = false;
+            // 
+            // mtsLayoutControlItem18
+            // 
+            this.mtsLayoutControlItem18.AControlName = "mtsLayoutControlItem18";
+            this.mtsLayoutControlItem18.AppearanceItemCaption.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsLayoutControlItem18.AppearanceItemCaption.Options.UseFont = true;
+            this.mtsLayoutControlItem18.Caption = "mtsLayoutControlItem18";
+            this.mtsLayoutControlItem18.Control = this.mtsCheckEdit1;
+            this.mtsLayoutControlItem18.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mtsLayoutControlItem18.ImageOptions.Image")));
+            this.mtsLayoutControlItem18.Location = new System.Drawing.Point(0, 759);
+            this.mtsLayoutControlItem18.MTSEnable = true;
+            this.mtsLayoutControlItem18.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsLayoutControlItem18.Name = "mtsLayoutControlItem18";
+            this.mtsLayoutControlItem18.Size = new System.Drawing.Size(451, 28);
+            this.mtsLayoutControlItem18.TextSize = new System.Drawing.Size(173, 16);
+            // 
+            // mtsCheckEdit2
+            // 
+            this.mtsCheckEdit2.AControlName = "mtsCheckEdit2";
+            this.mtsCheckEdit2.DataField = null;
+            this.mtsCheckEdit2.GroupNumber = -1;
+            this.mtsCheckEdit2.IdeaToolTip = "";
+            this.mtsCheckEdit2.IsColorSkin = true;
+            this.mtsCheckEdit2.IsRadio = false;
+            this.mtsCheckEdit2.IsReadOnly = false;
+            this.mtsCheckEdit2.IsRequired = false;
+            this.mtsCheckEdit2.Location = new System.Drawing.Point(914, 830);
+            this.mtsCheckEdit2.MinimumSize = new System.Drawing.Size(0, 24);
+            this.mtsCheckEdit2.MTSDefaultBackColor = System.Drawing.Color.Empty;
+            this.mtsCheckEdit2.MTSEnable = true;
+            this.mtsCheckEdit2.MTSText = "mtsCheckEdit2";
+            this.mtsCheckEdit2.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsCheckEdit2.Name = "mtsCheckEdit2";
+            this.mtsCheckEdit2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.mtsCheckEdit2.Properties.Appearance.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsCheckEdit2.Properties.Appearance.Options.UseBackColor = true;
+            this.mtsCheckEdit2.Properties.Appearance.Options.UseFont = true;
+            this.mtsCheckEdit2.Properties.Appearance.Options.UseTextOptions = true;
+            this.mtsCheckEdit2.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.mtsCheckEdit2.Properties.Caption = "mtsCheckEdit2";
+            this.mtsCheckEdit2.Properties.CheckBoxOptions.Style = DevExpress.XtraEditors.Controls.CheckBoxStyle.SvgCheckBox1;
+            this.mtsCheckEdit2.Properties.CheckBoxOptions.SvgColorChecked = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
+            this.mtsCheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked;
+            this.mtsCheckEdit2.Size = new System.Drawing.Size(222, 24);
+            this.mtsCheckEdit2.TabIndex = 23;
+            this.mtsCheckEdit2.ValueChecked = true;
+            this.mtsCheckEdit2.ValueUnChecked = false;
+            // 
+            // mtsLayoutControlItem19
+            // 
+            this.mtsLayoutControlItem19.AControlName = "mtsLayoutControlItem19";
+            this.mtsLayoutControlItem19.AppearanceItemCaption.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsLayoutControlItem19.AppearanceItemCaption.Options.UseFont = true;
+            this.mtsLayoutControlItem19.Caption = "mtsLayoutControlItem19";
+            this.mtsLayoutControlItem19.Control = this.mtsCheckEdit2;
+            this.mtsLayoutControlItem19.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mtsLayoutControlItem19.ImageOptions.Image")));
+            this.mtsLayoutControlItem19.Location = new System.Drawing.Point(451, 759);
+            this.mtsLayoutControlItem19.MTSEnable = true;
+            this.mtsLayoutControlItem19.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsLayoutControlItem19.Name = "mtsLayoutControlItem19";
+            this.mtsLayoutControlItem19.Size = new System.Drawing.Size(226, 28);
+            this.mtsLayoutControlItem19.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
+            this.mtsLayoutControlItem19.TextToControlDistance = 0;
+            this.mtsLayoutControlItem19.TextVisible = false;
+            // 
+            // mtsCheckEdit3
+            // 
+            this.mtsCheckEdit3.AControlName = "mtsCheckEdit3";
+            this.mtsCheckEdit3.DataField = null;
+            this.mtsCheckEdit3.GroupNumber = -1;
+            this.mtsCheckEdit3.IdeaToolTip = "";
+            this.mtsCheckEdit3.IsColorSkin = true;
+            this.mtsCheckEdit3.IsRadio = false;
+            this.mtsCheckEdit3.IsReadOnly = false;
+            this.mtsCheckEdit3.IsRequired = false;
+            this.mtsCheckEdit3.Location = new System.Drawing.Point(1140, 830);
+            this.mtsCheckEdit3.MinimumSize = new System.Drawing.Size(0, 24);
+            this.mtsCheckEdit3.MTSDefaultBackColor = System.Drawing.Color.Empty;
+            this.mtsCheckEdit3.MTSEnable = true;
+            this.mtsCheckEdit3.MTSText = "mtsCheckEdit3";
+            this.mtsCheckEdit3.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsCheckEdit3.Name = "mtsCheckEdit3";
+            this.mtsCheckEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.mtsCheckEdit3.Properties.Appearance.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsCheckEdit3.Properties.Appearance.Options.UseBackColor = true;
+            this.mtsCheckEdit3.Properties.Appearance.Options.UseFont = true;
+            this.mtsCheckEdit3.Properties.Appearance.Options.UseTextOptions = true;
+            this.mtsCheckEdit3.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.mtsCheckEdit3.Properties.Caption = "mtsCheckEdit3";
+            this.mtsCheckEdit3.Properties.CheckBoxOptions.Style = DevExpress.XtraEditors.Controls.CheckBoxStyle.SvgCheckBox1;
+            this.mtsCheckEdit3.Properties.CheckBoxOptions.SvgColorChecked = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
+            this.mtsCheckEdit3.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked;
+            this.mtsCheckEdit3.Size = new System.Drawing.Size(222, 24);
+            this.mtsCheckEdit3.TabIndex = 24;
+            this.mtsCheckEdit3.ValueChecked = true;
+            this.mtsCheckEdit3.ValueUnChecked = false;
+            // 
+            // mtsLayoutControlItem20
+            // 
+            this.mtsLayoutControlItem20.AControlName = "mtsLayoutControlItem20";
+            this.mtsLayoutControlItem20.AppearanceItemCaption.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsLayoutControlItem20.AppearanceItemCaption.Options.UseFont = true;
+            this.mtsLayoutControlItem20.Caption = "mtsLayoutControlItem20";
+            this.mtsLayoutControlItem20.Control = this.mtsCheckEdit3;
+            this.mtsLayoutControlItem20.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mtsLayoutControlItem20.ImageOptions.Image")));
+            this.mtsLayoutControlItem20.Location = new System.Drawing.Point(677, 759);
+            this.mtsLayoutControlItem20.MTSEnable = true;
+            this.mtsLayoutControlItem20.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsLayoutControlItem20.Name = "mtsLayoutControlItem20";
+            this.mtsLayoutControlItem20.Size = new System.Drawing.Size(226, 28);
+            this.mtsLayoutControlItem20.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
+            this.mtsLayoutControlItem20.TextToControlDistance = 0;
+            this.mtsLayoutControlItem20.TextVisible = false;
+            // 
+            // mtsTextEdit3
+            // 
+            this.mtsTextEdit3.AControlName = "mtsTextEdit3";
+            this.mtsTextEdit3.DataField = null;
+            this.mtsTextEdit3.EnterExcuteBtn = null;
+            this.mtsTextEdit3.IdeaToolTip = null;
+            this.mtsTextEdit3.ImeMode = System.Windows.Forms.ImeMode.Hangul;
+            this.mtsTextEdit3.IsColorSkin = true;
+            this.mtsTextEdit3.IsEnterTab = true;
+            this.mtsTextEdit3.IsLabelIcon = true;
+            this.mtsTextEdit3.IsReadOnly = false;
+            this.mtsTextEdit3.IsRequired = false;
+            this.mtsTextEdit3.Location = new System.Drawing.Point(548, 858);
+            this.mtsTextEdit3.MaskType = Mentorsoft.Winform.Framework.Controls.TextEditFormatType.NONE;
+            this.mtsTextEdit3.MinimumSize = new System.Drawing.Size(0, 24);
+            this.mtsTextEdit3.MTSDefaultBackColor = System.Drawing.Color.Empty;
+            this.mtsTextEdit3.MTSEnable = true;
+            this.mtsTextEdit3.MTSText = "";
+            this.mtsTextEdit3.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsTextEdit3.Name = "mtsTextEdit3";
+            this.mtsTextEdit3.NextControlFocus = null;
+            this.mtsTextEdit3.Properties.Appearance.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsTextEdit3.Properties.Appearance.Options.UseFont = true;
+            this.mtsTextEdit3.Properties.AppearanceFocused.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
+            this.mtsTextEdit3.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.mtsTextEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.mtsTextEdit3.Properties.Padding = new System.Windows.Forms.Padding(0, 1, 1, 1);
+            this.mtsTextEdit3.Size = new System.Drawing.Size(814, 24);
+            this.mtsTextEdit3.TabIndex = 25;
+            // 
+            // mtsLayoutControlItem21
+            // 
+            this.mtsLayoutControlItem21.AControlName = "mtsLayoutControlItem21";
+            this.mtsLayoutControlItem21.AppearanceItemCaption.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsLayoutControlItem21.AppearanceItemCaption.Options.UseFont = true;
+            this.mtsLayoutControlItem21.Caption = "mtsLayoutControlItem21";
+            this.mtsLayoutControlItem21.Control = this.mtsTextEdit3;
+            this.mtsLayoutControlItem21.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mtsLayoutControlItem21.ImageOptions.Image")));
+            this.mtsLayoutControlItem21.Location = new System.Drawing.Point(0, 787);
+            this.mtsLayoutControlItem21.MTSEnable = true;
+            this.mtsLayoutControlItem21.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsLayoutControlItem21.Name = "mtsLayoutControlItem21";
+            this.mtsLayoutControlItem21.Size = new System.Drawing.Size(903, 28);
+            this.mtsLayoutControlItem21.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
+            this.mtsLayoutControlItem21.TextSize = new System.Drawing.Size(80, 20);
+            this.mtsLayoutControlItem21.TextToControlDistance = 5;
+            // 
+            // mtsButton1
+            // 
+            this.mtsButton1.AControlName = "mtsButton1";
+            this.mtsButton1.Appearance.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsButton1.Appearance.Options.UseFont = true;
+            this.mtsButton1.ButtonText = "mtsButton1";
+            this.mtsButton1.ButtonType = DevExpress.XtraEditors.Controls.PaintStyles.Default;
+            this.mtsButton1.IconType = Mentorsoft.Winform.Framework.Controls.ButtonIconType.None;
+            this.mtsButton1.IdeaToolTip = null;
+            this.mtsButton1.IsHasRole = true;
+            this.mtsButton1.IsLabelIcon = true;
+            this.mtsButton1.IsValidationParentIMTSEditControl = false;
+            this.mtsButton1.Location = new System.Drawing.Point(463, 886);
+            this.mtsButton1.MinimumSize = new System.Drawing.Size(0, 24);
+            this.mtsButton1.MTSEnable = true;
+            this.mtsButton1.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsButton1.Name = "mtsButton1";
+            this.mtsButton1.Size = new System.Drawing.Size(899, 24);
+            this.mtsButton1.TabIndex = 26;
+            this.mtsButton1.Text = "mtsButton1";
+            // 
+            // mtsLayoutControlItem22
+            // 
+            this.mtsLayoutControlItem22.AControlName = "mtsLayoutControlItem22";
+            this.mtsLayoutControlItem22.AppearanceItemCaption.Font = new System.Drawing.Font("나눔고딕", 10F);
+            this.mtsLayoutControlItem22.AppearanceItemCaption.Options.UseFont = true;
+            this.mtsLayoutControlItem22.Caption = "mtsLayoutControlItem22";
+            this.mtsLayoutControlItem22.Control = this.mtsButton1;
+            this.mtsLayoutControlItem22.Location = new System.Drawing.Point(0, 815);
+            this.mtsLayoutControlItem22.MTSEnable = true;
+            this.mtsLayoutControlItem22.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            this.mtsLayoutControlItem22.Name = "mtsLayoutControlItem22";
+            this.mtsLayoutControlItem22.Size = new System.Drawing.Size(903, 28);
+            this.mtsLayoutControlItem22.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
+            this.mtsLayoutControlItem22.TextToControlDistance = 0;
+            this.mtsLayoutControlItem22.TextVisible = false;
             // 
             // HerbMain
             // 
@@ -1564,6 +1822,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mtsSpinEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsCheckEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsCheckEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsCheckEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsTextEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControlItem22)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1625,5 +1892,15 @@
         private Mentorsoft.Winform.Framework.Controls.MTSTextEdit mtsTextEdit1;
         private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem6;
         private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem17;
+        private Mentorsoft.Winform.Framework.Controls.MTSButton mtsButton1;
+        private Mentorsoft.Winform.Framework.Controls.MTSTextEdit mtsTextEdit3;
+        private Mentorsoft.Winform.Framework.Controls.MTSCheckEdit mtsCheckEdit3;
+        private Mentorsoft.Winform.Framework.Controls.MTSCheckEdit mtsCheckEdit2;
+        private Mentorsoft.Winform.Framework.Controls.MTSCheckEdit mtsCheckEdit1;
+        private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem18;
+        private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem19;
+        private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem20;
+        private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem21;
+        private Mentorsoft.Winform.Framework.Controls.MTSLayoutControlItem mtsLayoutControlItem22;
     }
 }
