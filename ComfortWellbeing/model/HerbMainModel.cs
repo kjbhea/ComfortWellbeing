@@ -1,4 +1,5 @@
-﻿using Mentorsoft.Winform.Framework.Core.DTO;
+﻿using ComfortWellbeing.model;
+using Mentorsoft.Winform.Framework.Core.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,22 @@ namespace ComfortWellbeing
 {
     public class HerbMainModel : MTSModel
     {
-        private PatientDto _Patient = new PatientDto();
+		private SEARCHDTO _Param = new SEARCHDTO();
+		public SEARCHDTO Param
+		{
+			get { return _Param; }
+			set
+			{
+				if (_Param != value)
+				{
+					_Param.PropertyChangedAction = OnPropertyChanged;
+					PropertyChange(_Param, value);
+					OnPropertyChanged("Param");
+				}
+			}
+		}
+
+		private PatientDto _Patient = new PatientDto();
 		public PatientDto Patient
 		{
 			get { return _Patient; }
@@ -24,5 +40,84 @@ namespace ComfortWellbeing
 			}
 		}
 
-    }
+
+
+		private MTSCollection<AARCPDTO> _AARCPList = new MTSCollection<AARCPDTO>();
+		public MTSCollection<AARCPDTO> AARCPList
+		{
+			get { return _AARCPList; }
+			set
+			{
+				if (_AARCPList != value)
+				{
+					PropertyChange(_AARCPList, value);
+					OnPropertyChanged("AARCPList");
+				}
+			}
+		}
+
+		private MTSCollection<OrderModel> _AAORDList = new MTSCollection<OrderModel>();
+		public MTSCollection<OrderModel> AAORDList
+		{
+			get { return _AAORDList; }
+			set
+			{
+				if (_AAORDList != value)
+				{
+					PropertyChange(_AAORDList, value);
+					OnPropertyChanged("AAORDList");
+				}
+			}
+		}
+
+
+		private MTSCollection<SetCdModel> _SetCdList = new MTSCollection<SetCdModel>();
+		public MTSCollection<SetCdModel> SetCdList
+		{
+			get { return _SetCdList; }
+			set
+			{
+				if (_SetCdList != value)
+				{
+					PropertyChange(_SetCdList, value);
+					OnPropertyChanged("SetCdList");
+				}
+			}
+		}
+
+
+		private MTSCollection<OrderModel> _OrderList = new MTSCollection<OrderModel>();
+		public MTSCollection<OrderModel> OrderList
+		{
+			get { return _OrderList; }
+			set
+			{
+				if (_OrderList != value)
+				{
+					PropertyChange(_OrderList, value);
+					OnPropertyChanged("OrderList");
+				}
+			}
+		}
+	}
+
+	public class SEARCHDTO : MTSDTO
+	{
+        /// <summary>                          
+        /// OrderDate
+        /// </summary>                         
+        private string _OrderDate = string.Empty;
+        public string OrderDate
+        {
+            get { return _OrderDate == null ? string.Empty : _OrderDate; }
+            set
+            {
+                if (_OrderDate != value)
+                {
+                    _OrderDate = value;
+                    OnPropertyChanged("OrderDate", value);
+                }
+            }
+        }
+    }	
 }

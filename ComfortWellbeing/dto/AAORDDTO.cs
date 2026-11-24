@@ -128,6 +128,25 @@ namespace ComfortWellbeing
 			}
 		}
 
+
+		/// <summary>                          
+		/// FREEYN
+		/// </summary>                         
+		private string _FREEYN = string.Empty;
+		public string FREEYN
+		{
+			get { return _FREEYN == null ? string.Empty : _FREEYN; }
+			set
+			{
+				if (_FREEYN != value)
+				{
+					_FREEYN = value;
+					OnPropertyChanged("FREEYN", value);
+				}
+			}
+		}
+
+
 		/// <summary>                          
 		/// 계산금액
 		/// </summary>                         

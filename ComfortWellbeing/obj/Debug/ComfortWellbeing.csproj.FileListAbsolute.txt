@@ -255,3 +255,9 @@ D:\workspace\ComfortWellbeing\ComfortWellbeing\obj\Debug\ComfortW.90EBACC9.Up2Da
 D:\workspace\ComfortWellbeing\ComfortWellbeing\obj\Debug\ComfortWellbeing.exe
 D:\workspace\ComfortWellbeing\ComfortWellbeing\obj\Debug\ComfortWellbeing.pdb
 D:\workspace\ComfortWellbeing\ComfortWellbeing\obj\Debug\ComfortWellbeing.BasHerbCd.resources
+D:\99.소스관리\ComfortWellbeing\ComfortWellbeing\bin\Debug\System.Text.Json.dll
+D:\99.소스관리\ComfortWellbeing\ComfortWellbeing\bin\Debug\System.ValueTuple.dll
+D:\99.소스관리\ComfortWellbeing\ComfortWellbeing\bin\Debug\System.Text.Encodings.Web.dll
+D:\99.소스관리\ComfortWellbeing\ComfortWellbeing\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\99.소스관리\ComfortWellbeing\ComfortWellbeing\obj\Debug\ComfortWellbeing.csproj.SuggestedBindingRedirects.cache
+D:\99.소스관리\ComfortWellbeing\ComfortWellbeing\obj\Debug\ComfortWellbeing.BasHerbCd.resources
