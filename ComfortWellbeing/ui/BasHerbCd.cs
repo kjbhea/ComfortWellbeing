@@ -59,8 +59,8 @@ namespace ComfortWellbeing
 
             GrdView.Columns.Clear();            
             GrdView.AddColumn("코드", nameof(BHERBCDMODEL.HerbCd), 100, EditbleType.False, MTSGridColumnType.Text, Align.Center);           
-            GrdView.AddColumn("명칭", nameof(BHERBCDMODEL.HerbNm), 150, EditbleType.False, MTSGridColumnType.Text, Align.Center);                        
-            GrdView.AddColumn("제조사", nameof(BHERBCDMODEL.Company), 200, EditbleType.False, MTSGridColumnType.Text, Align.Center);                        
+            GrdView.AddColumn("명칭", nameof(BHERBCDMODEL.HerbNm), 200, EditbleType.False, MTSGridColumnType.Text, Align.Left);                        
+            GrdView.AddColumn("제조사", nameof(BHERBCDMODEL.Company), 150, EditbleType.False, MTSGridColumnType.Text, Align.Left);                        
             GrdView.DataSource = Model.BHerbList;
         }
 
