@@ -154,6 +154,7 @@
     <Compile Include="model\BasHerbCdModel.cs" />
     <Compile Include="model\HerbMainModel.cs" />
     <Compile Include="model\OrderModel.cs" />
+    <Compile Include="model\PayModel.cs" />
     <Compile Include="model\SetCdModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,6 +163,9 @@
     <Compile Include="service\FIndPatientService.cs" />
     <Compile Include="service\HerbMainService.cs" />
     <Compile Include="service\SetCodeService.cs" />
+    <Compile Include="service\Tab1Service.cs" />
+    <Compile Include="service\Tab2Service.cs" />
+    <Compile Include="service\Tab3Service.cs" />
     <Compile Include="ui\BasHerbCd.cs">
       <SubType>Form</SubType>
     </Compile>

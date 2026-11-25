@@ -167,7 +167,7 @@
         N0Q3IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="editorButtonImageOptions2.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v24.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="editorButtonImageOptions3.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v24.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjI0LjIsIFZlcnNpb249MjQuMi41
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -215,7 +215,7 @@
         bD0iIzcyNzI3MiIgY2xhc3M9IkJsYWNrIiAvPg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="editorButtonImageOptions3.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v24.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="editorButtonImageOptions1.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v24.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjI0LjIsIFZlcnNpb249MjQuMi41
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -382,7 +382,7 @@
         RudN65tdA8sHzg46DF645Xrr8m2v29fvrLwzMBQydHc4cnjkLvvu5L2key/vZ9yff7DpIfph4SOpR+WP
         lR7X/aj3Y+uI5ciZUdfRvidBTx6Mscae/5T+04fx/Kfkp+UTqhONk2aTp6fcp24+W/1s/Hnq8/npgp+l
         f65+ofviu18cf+mbWTUz/pL/cuHX4lfyr468Xva6e9Z/9vGb5Dfzc4Vv5d8efcd41/s+7P3EfOYH7IeK
-        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALEQAACxEBf2RfkQAAALdJREFUOE+ljj0KwkAQ
+        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALEAAACxABrSO9dQAAALdJREFUOE+ljj0KwkAQ
         hZecQLQyjUEjWAgWgqISMP4UWRBsNHqGbRIvIkE873N2U8lM4WDxscv33syuAfAXotQgSg2i1CBKDaKc
         zJdI10ekm31gmB0wnS0o4l0mPHFxR1Q1MLXnhah+IsnPFPEuE55+UYbBFlryaJBsTxTxLhOe2N7a4erd
         LqC7asHXD+h1fw5ySxHvMuEZZRbdq0OndOhdXLiPVzuKeJcJLaLUIEoNotQgyt+B+QA5B9N+zsLGGAAA
@@ -652,7 +652,7 @@
         RudN65tdA8sHzg46DF645Xrr8m2v29fvrLwzMBQydHc4cnjkLvvu5L2key/vZ9yff7DpIfph4SOpR+WP
         lR7X/aj3Y+uI5ciZUdfRvidBTx6Mscae/5T+04fx/Kfkp+UTqhONk2aTp6fcp24+W/1s/Hnq8/npgp+l
         f65+ofviu18cf+mbWTUz/pL/cuHX4lfyr468Xva6e9Z/9vGb5Dfzc4Vv5d8efcd41/s+7P3EfOYH7IeK
-        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDQAACw0B7QfALAAAALdJREFUOE+ljj0KwkAQ
+        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDAAACwwBP0AiyAAAALdJREFUOE+ljj0KwkAQ
         hZecQLQyjUEjWAgWgqISMP4UWRBsNHqGbRIvIkE873N2U8lM4WDxscv33syuAfAXotQgSg2i1CBKDaKc
         zJdI10ekm31gmB0wnS0o4l0mPHFxR1Q1MLXnhah+IsnPFPEuE55+UYbBFlryaJBsTxTxLhOe2N7a4erd
         LqC7asHXD+h1fw5ySxHvMuEZZRbdq0OndOhdXLiPVzuKeJcJLaLUIEoNotQgyt+B+QA5B9N+zsLGGAAA
@@ -706,7 +706,7 @@
         RudN65tdA8sHzg46DF645Xrr8m2v29fvrLwzMBQydHc4cnjkLvvu5L2key/vZ9yff7DpIfph4SOpR+WP
         lR7X/aj3Y+uI5ciZUdfRvidBTx6Mscae/5T+04fx/Kfkp+UTqhONk2aTp6fcp24+W/1s/Hnq8/npgp+l
         f65+ofviu18cf+mbWTUz/pL/cuHX4lfyr468Xva6e9Z/9vGb5Dfzc4Vv5d8efcd41/s+7P3EfOYH7IeK
-        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDQAACw0B7QfALAAAALdJREFUOE+ljj0KwkAQ
+        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDAAACwwBP0AiyAAAALdJREFUOE+ljj0KwkAQ
         hZecQLQyjUEjWAgWgqISMP4UWRBsNHqGbRIvIkE873N2U8lM4WDxscv33syuAfAXotQgSg2i1CBKDaKc
         zJdI10ekm31gmB0wnS0o4l0mPHFxR1Q1MLXnhah+IsnPFPEuE55+UYbBFlryaJBsTxTxLhOe2N7a4erd
         LqC7asHXD+h1fw5ySxHvMuEZZRbdq0OndOhdXLiPVzuKeJcJLaLUIEoNotQgyt+B+QA5B9N+zsLGGAAA
@@ -760,7 +760,7 @@
         RudN65tdA8sHzg46DF645Xrr8m2v29fvrLwzMBQydHc4cnjkLvvu5L2key/vZ9yff7DpIfph4SOpR+WP
         lR7X/aj3Y+uI5ciZUdfRvidBTx6Mscae/5T+04fx/Kfkp+UTqhONk2aTp6fcp24+W/1s/Hnq8/npgp+l
         f65+ofviu18cf+mbWTUz/pL/cuHX4lfyr468Xva6e9Z/9vGb5Dfzc4Vv5d8efcd41/s+7P3EfOYH7IeK
-        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDQAACw0B7QfALAAAALdJREFUOE+ljj0KwkAQ
+        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDAAACwwBP0AiyAAAALdJREFUOE+ljj0KwkAQ
         hZecQLQyjUEjWAgWgqISMP4UWRBsNHqGbRIvIkE873N2U8lM4WDxscv33syuAfAXotQgSg2i1CBKDaKc
         zJdI10ekm31gmB0wnS0o4l0mPHFxR1Q1MLXnhah+IsnPFPEuE55+UYbBFlryaJBsTxTxLhOe2N7a4erd
         LqC7asHXD+h1fw5ySxHvMuEZZRbdq0OndOhdXLiPVzuKeJcJLaLUIEoNotQgyt+B+QA5B9N+zsLGGAAA
@@ -868,7 +868,7 @@
         RudN65tdA8sHzg46DF645Xrr8m2v29fvrLwzMBQydHc4cnjkLvvu5L2key/vZ9yff7DpIfph4SOpR+WP
         lR7X/aj3Y+uI5ciZUdfRvidBTx6Mscae/5T+04fx/Kfkp+UTqhONk2aTp6fcp24+W/1s/Hnq8/npgp+l
         f65+ofviu18cf+mbWTUz/pL/cuHX4lfyr468Xva6e9Z/9vGb5Dfzc4Vv5d8efcd41/s+7P3EfOYH7IeK
-        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDQAACw0B7QfALAAAALdJREFUOE+ljj0KwkAQ
+        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAALDAAACwwBP0AiyAAAALdJREFUOE+ljj0KwkAQ
         hZecQLQyjUEjWAgWgqISMP4UWRBsNHqGbRIvIkE873N2U8lM4WDxscv33syuAfAXotQgSg2i1CBKDaKc
         zJdI10ekm31gmB0wnS0o4l0mPHFxR1Q1MLXnhah+IsnPFPEuE55+UYbBFlryaJBsTxTxLhOe2N7a4erd
         LqC7asHXD+h1fw5ySxHvMuEZZRbdq0OndOhdXLiPVzuKeJcJLaLUIEoNotQgyt+B+QA5B9N+zsLGGAAA

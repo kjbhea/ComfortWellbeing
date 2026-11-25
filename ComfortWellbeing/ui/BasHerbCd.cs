@@ -64,6 +64,11 @@ namespace ComfortWellbeing
             GrdView.DataSource = Model.BHerbList;
         }
 
+        private void BasHerbCd_Load(object sender, EventArgs e)
+        {
+            BtnSearch.PerformClick();
+        }
+
         private void BtnClear_Click(object sender, EventArgs e)
         {
             Model.BHerbCd = new BHERBCDMODEL();
@@ -81,7 +86,9 @@ namespace ComfortWellbeing
         {
             if (Biz.SaveData(Model.BHerbCd))
             {
-                MessageBox.Show("저장완료", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);   
+                MessageBox.Show("저장완료", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                BtnClear.PerformClick();
+                BtnSearch.PerformClick();
             }
             else
             {
@@ -97,6 +104,8 @@ namespace ComfortWellbeing
                 if (Biz.DeleteData(Model.BHerbCd))
                 {
                     MessageBox.Show("삭제완료", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    BtnClear.PerformClick();
+                    BtnSearch.PerformClick();
                 }
                 else
                 {
@@ -130,5 +139,6 @@ namespace ComfortWellbeing
         {
             Model.BHerbCd = Biz.FindData(Model.BHerbCd.HerbCd, Model.BHerbCd.AplDate);
         }
+
     }
 }

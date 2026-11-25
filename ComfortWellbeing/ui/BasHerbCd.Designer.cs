@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BasHerbCd));
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.mtsLayoutControl1 = new Mentorsoft.Winform.Framework.Controls.MTSLayoutControl();
             this.TxtCnt = new Mentorsoft.Winform.Framework.Controls.MTSSpinEdit();
             this.TxtQty = new Mentorsoft.Winform.Framework.Controls.MTSSpinEdit();
@@ -472,12 +472,12 @@
             this.DtpAplToDate.Properties.AppearanceFocused.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
             this.DtpAplToDate.Properties.AppearanceFocused.Options.UseBorderColor = true;
             this.DtpAplToDate.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            editorButtonImageOptions2.EnableTransparency = false;
-            editorButtonImageOptions2.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions2.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions2.SvgImage")));
-            editorButtonImageOptions2.SvgImageSize = new System.Drawing.Size(16, 16);
+            editorButtonImageOptions3.EnableTransparency = false;
+            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions3.SvgImage")));
+            editorButtonImageOptions3.SvgImageSize = new System.Drawing.Size(16, 16);
             this.DtpAplToDate.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.DtpAplToDate.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.DtpAplToDate.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
@@ -517,12 +517,12 @@
             this.DtpAplFrDate.Properties.AppearanceFocused.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
             this.DtpAplFrDate.Properties.AppearanceFocused.Options.UseBorderColor = true;
             this.DtpAplFrDate.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            editorButtonImageOptions3.EnableTransparency = false;
-            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions3.SvgImage")));
-            editorButtonImageOptions3.SvgImageSize = new System.Drawing.Size(16, 16);
+            editorButtonImageOptions1.EnableTransparency = false;
+            editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
+            editorButtonImageOptions1.SvgImageSize = new System.Drawing.Size(16, 16);
             this.DtpAplFrDate.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, null, null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.DtpAplFrDate.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.DtpAplFrDate.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
@@ -782,12 +782,12 @@
             this.mtsLabel1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.mtsLabel1.MinimumSize = new System.Drawing.Size(50, 24);
             this.mtsLabel1.MTSEnable = true;
-            this.mtsLabel1.MTSText = "코드관리";
+            this.mtsLabel1.MTSText = " ■ 코드관리";
             this.mtsLabel1.MTSVisibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             this.mtsLabel1.Name = "mtsLabel1";
             this.mtsLabel1.Size = new System.Drawing.Size(1311, 28);
             this.mtsLabel1.TabIndex = 14;
-            this.mtsLabel1.Text = "코드관리";
+            this.mtsLabel1.Text = " ■ 코드관리";
             this.mtsLabel1.TimeFormatValue = Mentorsoft.Winform.Framework.Controls.TimeEditTextType.HHmmss;
             // 
             // Root
@@ -1214,6 +1214,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "BasHerbCd";
             this.Text = "BasHerbCd";
+            this.Load += new System.EventHandler(this.BasHerbCd_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mtsLayoutControl1)).EndInit();
             this.mtsLayoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TxtCnt.Properties)).EndInit();

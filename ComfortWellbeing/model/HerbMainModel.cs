@@ -99,6 +99,23 @@ namespace ComfortWellbeing
 				}
 			}
 		}
+
+
+		private PayModel _PayInfo = new PayModel();
+		public PayModel PayInfo
+		{
+			get { return _PayInfo; }
+			set
+			{
+				if (_PayInfo != value)
+				{
+					_PayInfo.PropertyChangedAction = OnPropertyChanged;
+					PropertyChange(_PayInfo, value);
+					OnPropertyChanged("PayInfo");
+				}
+			}
+		}
+
 	}
 
 	public class SEARCHDTO : MTSDTO

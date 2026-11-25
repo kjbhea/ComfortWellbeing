@@ -185,7 +185,7 @@ namespace ComfortWellbeing
                         strSQL += "UPDATE pam.wb_bherbcd                                ";
                         strSQL += "   SET AplToDate     = '" + param.AplToDate + "'     ";
                         strSQL += "     , HerbNm        = '" + param.HerbNm + "'        ";
-                        strSQL += "     , BasAmt           " + param.BasAmt;
+                        strSQL += "     , BasAmt        =  " + param.BasAmt;
                         strSQL += "     , Company       = '" + param.Company + "'       ";
                         strSQL += "     , Ingredient    = '" + param.Ingredient + "'    ";
                         strSQL += "     , TotalQty      =  " + param.TotalQty;
